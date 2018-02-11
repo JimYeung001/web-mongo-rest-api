@@ -28,7 +28,7 @@ import com.jim.webrestmongo.model.Profile;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class WebServiceProfilesTest {
+public class WebServiceProfilesIntegrationTest {
 	
 	private static final String URI = "/profiles";
 	private static final String URI_ONE_VAR = "/profiles/{lastName}";
